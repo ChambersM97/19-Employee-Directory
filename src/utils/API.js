@@ -1,9 +1,11 @@
+import React from 'react';
 import axios from 'axios';
-const BASEURL = "";
-const APIKEY = "";
+const URL = "https://randomapi.com/api/?results=40";
+
 
 export default {
-  search: function(query) {
-    return axios.get(BASEURL + query + APIKEY);
+  searchEmployees: function() {
+    return axios.get(URL);
   }
 };
+
