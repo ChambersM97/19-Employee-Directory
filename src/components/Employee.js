@@ -1,8 +1,12 @@
+import React, { Component } from 'react';
 import API from '../utils/API'
 
 
- var Employee = function() {
-    return API.searchEmployees();
+class Employee extends Component() {
+    ComponentDidMount() {
+        return API.searchEmployees();
+    }
+    
 }
 
 
