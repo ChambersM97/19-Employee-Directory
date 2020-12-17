@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import Employee from "./components/Employee";
 
-function App() {
-  return (
-    <div>
-      return <Employee />
-    </div>
-  );
+class App extends Component {
+  state = {
+    results: []
+  };
+
+  componentDidMount() {
+    
+  }
 }
 
 export default App;

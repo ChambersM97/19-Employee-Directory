@@ -1,9 +1,10 @@
 import axios from 'axios';
-const URL = "https://randomapi.com/api/?results=40";
+const URL = "https://randomuser.me/api/?results=50";
 
 
 export default {
   searchEmployees: function() {
+    console.log(URL)
     return axios.get(URL)
     }
   };
