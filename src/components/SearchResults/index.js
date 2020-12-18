@@ -4,8 +4,8 @@ import "./style.css";
 function SearchResults(props) {
   return (
     <div>
-    <button >Filter By Gender</button>
-    <button >Sort by Name</button>
+    {/* <button >Filter By Gender</button>
+    <button style="center">Sort by Name</button> */}
     <ul className="list-group search-results">
       {props.results.map(result => (
         <li key={result} className="list-group-item">
